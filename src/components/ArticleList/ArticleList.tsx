@@ -9,7 +9,7 @@ function ArticleList({ articles }: ArticleListProps) {
     <ul>
       {articles.map((article) => (
         <li key={article.story_id}>
-          <a href={article.utl}>{article.title}</a>
+          <a href={article.url}>{article.title}</a>
         </li>
       ))}
     </ul>
